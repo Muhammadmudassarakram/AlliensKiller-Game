@@ -1,0 +1,51 @@
+#ufoCanvas {
+    border: 1px solid black;
+    /* for horizontal centering */
+    margin: 0 auto;
+    display: block;
+    /* set backgorund image */
+    background-image: url("../images/darkbackground.png");
+    /* resize the background image to canvas */
+    background-size: 100% 100%;
+}
+@media screen and (min-width: 39em){
+    #ufoCanvas {
+        background-image: url("../images/darkbackground.png");
+        
+    }
+    
+}
+@media screen and (min-width: 60em){
+    #ufoCanvas {
+        
+        background-image: url("../images/darkbackground.png");
+        background-position: 0 0;
+        
+    }
+    
+}
+
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+}
+
+@media screen and (min-width: 39em){
+    
+body {
+    background-image: url("../images/background.jpg");
+    
+}
+
+}
+@media screen and (min-width: 60em){
+    
+    body {
+        background-image: url("../images/background.jpg");
+        background-position: 0 0;
+        
+    }
+    
+    }
+    
