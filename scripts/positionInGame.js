@@ -202,6 +202,7 @@ class InGamePosition {
     }
     draw(play) {
         // draw Spaceship
+        
         ctx.clearRect(0, 0, play.width, play.height);
         ctx.drawImage(this.spaceship_image, this.spaceship.x - (this.spaceship.width / 2), this.spaceship.y - (this.spaceship.height / 2));
         // draw Bullets 
